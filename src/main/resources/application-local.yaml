@@ -1,0 +1,9 @@
+#spring.application.name=myjingxi
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_jingxi
+    username: root
+    password: test@db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    locations: classpath:db/migration, db/data/local
